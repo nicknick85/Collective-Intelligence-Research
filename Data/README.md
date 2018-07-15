@@ -1,1 +1,1 @@
-# Tick data from _Bеtfаir_
+# Tick data loaded from Bеtfаir
