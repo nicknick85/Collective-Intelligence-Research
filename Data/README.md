@@ -7,3 +7,4 @@ Here we store general information about 24 football events and corresponding mar
 * market_id - native identifiers of markets.
 * market_name - names of markets.
 * market_index - 1 for "match odds", 2 for "over/under 2.5 goals", 3 for "correct score", and 4 for "over/under 1.5 goals".
+## tickdata_selections
