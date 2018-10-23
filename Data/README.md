@@ -16,3 +16,5 @@ Here we store general information about selections contained in our markets. Sel
 * win_flag - 1 if a selection corresponds to a winner, 0 otherwise.
 ## tickdata_betstape
 Here we store an initial state of each market (the state at the beginning of scanning) as well as all subsequent changes until the beginning of the corresponding event.
+* e_id, market_id, selection_id - the same as in __tickdata_markets__ and __tickdata_selections__.
+* ts - timestamps. For each market, the first timestamp is the time when scanning has been started. The data corresponding to it contains all the information about the initial state of the market. Subsequent timestamps corresponds to changes of the market state until the beginning of the corresponding event.
