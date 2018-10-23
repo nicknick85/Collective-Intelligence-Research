@@ -1,4 +1,4 @@
-# Detailed historical data loaded from Bеtfаir
+# Detailed historical data from Bеtfаir
 ...
 ## tickdata_markets
 Here we store general information about 24 football events and corresponding markets. Four markets are considered for each event (see below).
