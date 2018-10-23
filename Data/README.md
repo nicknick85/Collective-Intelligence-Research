@@ -9,3 +9,8 @@ Here we store general information about 24 football events and corresponding mar
 * market_index - 1 for "match odds", 2 for "over/under 2.5 goals", 3 for "correct score", and 4 for "over/under 1.5 goals".
 ## tickdata_selections
 Here we store general information about selections contained in our markets. Selections in a market are mutually exclusive outcomes and each market may be considered as a sample space. But each selection may be considered separately as a sample space &Omega;={0, 1}. The latter corresponds to our considerations in the article.
+* e_id, market_id - the same as in __tickdata_markets__.
+* selection_id - native identifiers of selections.
+* selection_name - names of selections.
+* selection_index - ordinal numbers of selections within corresponding markets.
+* win_flag - 1 if a selection corresponds to a winner, 0 otherwise.
