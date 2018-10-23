@@ -9,13 +9,13 @@ Here we store general information about 24 football events and corresponding mar
 * _market_index_ - 1 for "match odds", 2 for "over/under 2.5 goals", 3 for "correct score", and 4 for "over/under 1.5 goals".
 ## tickdata_selections
 Here we store general information about selections contained in our markets. Selections in a market are mutually exclusive outcomes and each market may be considered as a sample space. But each selection may be considered separately as a sample space &Omega;={0, 1}. The latter corresponds to our considerations in the article.
-* e_id, market_id - the same as in __tickdata_markets__.
-* selection_id - native identifiers of selections.
-* selection_name - names of selections.
-* selection_index - ordinal numbers of selections within corresponding markets.
-* win_flag - 1 if a selection corresponds to a winner, 0 otherwise.
+* _e_id_, _market_id_ - the same as in __tickdata_markets__.
+* _selection_id_ - native identifiers of selections.
+* _selection_name_ - names of selections.
+* _selection_index_ - ordinal numbers of selections within corresponding markets.
+* _win_flag_ - 1 if a selection corresponds to a winner, 0 otherwise.
 ## tickdata_betstape
 Here we store an initial state of each market (the state at the beginning of scanning) as well as all subsequent changes until the beginning of the corresponding event.
-* e_id, market_id, selection_id - the same as in __tickdata_markets__ and __tickdata_selections__.
-* ts - timestamps. For each market, the first timestamp is the time when scanning has been started. The data corresponding to it contains all the information about the initial state of the market. Subsequent timestamps corresponds to changes of the market state until the beginning of the corresponding event.
-* k - a coefficient for which a certain operation has been performed at the time _ts_. If _ts_ is the first timestamp for the market, then _k_ that correspond to it are the initial coefficients (the coefficients at the beginning of scanning).
+* _e_id_, _market_id_, _selection_id_ - the same as in __tickdata_markets__ and __tickdata_selections__.
+* _ts_ - timestamps. For each market, the first timestamp is the time when scanning has been started. The data corresponding to it contains all the information about the initial state of the market. Subsequent timestamps corresponds to changes of the market state until the beginning of the corresponding event.
+* _k_ - a coefficient for which a certain operation has been performed at the time _ts_. If _ts_ is the first timestamp for the market, then _k_ that correspond to it are the initial coefficients (the coefficients at the beginning of scanning).
