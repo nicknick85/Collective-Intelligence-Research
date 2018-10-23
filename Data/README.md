@@ -14,3 +14,5 @@ Here we store general information about selections contained in our markets. Sel
 * selection_name - names of selections.
 * selection_index - ordinal numbers of selections within corresponding markets.
 * win_flag - 1 if a selection corresponds to a winner, 0 otherwise.
+## tickdata_betstape
+Here we store an initial state of each market (the state at the beginning of scanning) as well as all subsequent changes until the beginning of the corresponding event.
