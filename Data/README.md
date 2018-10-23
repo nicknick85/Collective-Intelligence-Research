@@ -8,4 +8,4 @@ Here we store general information about 24 football events and corresponding mar
 * market_name - names of markets.
 * market_index - 1 for "match odds", 2 for "over/under 2.5 goals", 3 for "correct score", and 4 for "over/under 1.5 goals".
 ## tickdata_selections
-... &Omega; ...
+Here we store general information about selections contained in our markets. Selections in a market are mutually exclusive outcomes and each market may be considered as a sample space. But each selection may be considered separately as a sample space &Omega;={0, 1}. The latter corresponds to our considerations in the article.
