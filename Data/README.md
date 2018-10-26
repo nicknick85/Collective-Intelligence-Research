@@ -1,5 +1,5 @@
 # Detailed historical data from Bеtfаir
-The database in _pmdata.backup_ contains the following tables.
+Here we describe the tables from the database in _pmdata.backup_. The best way to handle them is to use the function _GetData_ in _DataHandling.r_.
 ## tickdata_markets
 Here we store general information about 24 football events and corresponding markets. Four markets are considered for each event (see below).
 * _e_id_ - identifiers of football events. This column has been filled by the loader and contains the numbers from 1 to 24.
