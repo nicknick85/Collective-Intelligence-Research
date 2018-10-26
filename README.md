@@ -7,7 +7,7 @@ In spite of the fact that our goal is the creation of a play-money prediction sy
 * File _Data/DataHandling.r_ contains scripts for uploading the _PostgreSQL_ data into _R_ and for further working with them. Before uploading, the data must be restored from _Data/pmdata.backup_.
 * Folder _Data/InCSV_ contains the database in CSV format.
 ## Model
-...
+We implement and verify our ideas in _R_.
 * File _Model/MuSgmEstimation.r_ contains scripts for eliciting estimates of __&mu;__ and &sigma; from market data.
 * File _Model/GetGraph.r_ contains scripts for obtaining graphs of __&mu;__ and &sigma; estimates with the aggregated _V_<sup> +</sup> and&nbsp;_V_<sup> -</sup> in the role of "time".
 * File _Model/VotingModel.r_ contains scripts for simulation of our model.
