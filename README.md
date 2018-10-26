@@ -11,3 +11,4 @@ In spite of the fact that our goal is the creation of a play-money prediction sy
 * File _Model/MuSgmEstimation.r_ contains scripts for eliciting estimates of __&mu;__ and &sigma; from market data.
 * File _Model/GetGraph.r_ contains scripts for obtaining graphs of __&mu;__ and &sigma; estimates where "time" is the aggregated _V_<sup> +</sup> and&nbsp;_V_<sup> -</sup>.
 * File _Model/VotingModel.r_ contains scripts for simulation of our model.
+* File _Model/ModelExample.r_ contains scripts for reproducing Table ... in the article.
