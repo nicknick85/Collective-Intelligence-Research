@@ -1,5 +1,5 @@
 # Detailed historical data from Bеtfаir
-...
+The database in _pmdata.backup_ contains the following tables.
 ## tickdata_markets
 Here we store general information about 24 football events and corresponding markets. Four markets are considered for each event (see below).
 * _e_id_ - identifiers of football events. This column has been filled by the loader and contains the numbers from 1 to 24.
