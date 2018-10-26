@@ -8,7 +8,7 @@ In spite of the fact that our goal is the creation of a play-money prediction sy
 * Folder _Data/InCSV_ contains the database in CSV format.
 ## Model
 We implement and verify our ideas in _R_.
-* File _Model/MuSgmEstimation.r_ contains scripts for eliciting estimates of __&mu;__ and &sigma; from market data.
+* File _Model/MuSgmEstimation.r_ contains scripts for eliciting estimates of __&mu;__ and &sigma; from market states.
 * File _Model/GetGraph.r_ contains scripts for obtaining graphs of __&mu;__ and &sigma; estimates with the aggregated _V_<sup> +</sup> and&nbsp;_V_<sup> -</sup> in the role of "time".
 * File _Model/VotingModel.r_ contains scripts for simulation of our model.
 * File _Model/ModelExample.r_ contains scripts for reproducing Table ... from the article. This file should be loaded from _PSys.RData_ workspace.
