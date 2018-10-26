@@ -1,5 +1,5 @@
 # Detailed historical data from Bеtfаir
-Here we describe the tables from the database contained in _pmdata.backup_ (_PostgreSQL_ backup file). The best way to handle them is to use the function _GetData_ from the file _DataHandling.r_.
+Here we describe the tables from the database contained in _pmdata.backup_ (a _PostgreSQL_ backup file). The best way to handle them is to use the function _GetData_ from the file _DataHandling.r_.
 ## tickdata_markets
 Here we store general information about 24 football events and corresponding markets. Four markets are considered for each event (see below).
 * _e_id_ - identifiers of football events. This column has been filled by the loader and contains the numbers from 1 to 24.
