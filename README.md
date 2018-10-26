@@ -8,3 +8,4 @@ In spite of the fact that our goal is the creation of a play-money prediction sy
 * Folder _Data/InCSV_ contains the database in CSV format.
 ## Model
 ...
+* File _Model/MuSgmEstimation.r_ contains scripts for eliciting estimates of 
