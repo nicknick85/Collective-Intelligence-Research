@@ -1,0 +1,314 @@
+Delivered-To: nick1985nick@gmail.com
+Received: by 2002:a02:a590:0:0:0:0:0 with SMTP id b16-v6csp826066jam;
+        Fri, 14 Sep 2018 08:39:46 -0700 (PDT)
+X-Google-Smtp-Source: ANB0VdbeK0Oz6be6IZkxt8OuMaUncd4+/LGjnsyMesNeOSvMy2quqsIx86VplH4Sk6Pi5O8atXdQ
+X-Received: by 2002:a63:d613:: with SMTP id q19-v6mr12575704pgg.327.1536939586454;
+        Fri, 14 Sep 2018 08:39:46 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1536939586; cv=none;
+        d=google.com; s=arc-20160816;
+        b=SSnLaxllpHylcHi/UNRJc8MuKR0DFWIq+sLO956W5njN5PIWD64Sg68ezJtygp7zTf
+         OdrFOhVXHFOfy/xFLGoQxvRlR/EeRkQCwQlurK3RkZtYJw0c0w0u3gem2QM83n/ilhrw
+         Fv3woTe1wtNSPDttIzPxKuP3jwdd/cgvCjjnMHwcOFHHGbYXSjzLxU7N+/aGkKqXRy1y
+         B/JRvLoZPQXfon2l1fqvLQjh9PTa2/FZp2fvcqNuIMEKEGssRZkrX81ejGS66btIfDbb
+         pT5NOteTT4giF189mBOA8FY1Ez0zGq0d8zbz11g1p4uA9y2dYCMIc3v7AtUs004qF0PZ
+         AtFQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=dkim-signature:auto-submitted:content-transfer-encoding
+         :mime-version:subject:in-reply-to:message-id:to:reply-to:from:date;
+        bh=TYGvh1hTBYnydAfooYRbwLh5ys72IytL0mW+UEeUDjA=;
+        b=JTr74BHyu90BEt1gn9vbzv+EeLIQlbgb4RzW2mKJ+e3GBU/aSfvQinz2+ScDv7CFIp
+         KVuN2pk/EQrckqdrs6n5gg/QVX6oVUfTCEjjDprTKcDwZUsd2zYYYE7ttecBvHVcVYup
+         CBoaRShAULUkZuHqe4jsQsZ3rF+KtVBYeWuTX63V9cSASYrB0zyDXfLPV2LI/zJ1J8Dl
+         gDo/wNb+8J9+/Ya68ErrtFp/AozMFU4sC6EF6ajyZMqd5rvSZswj48DwMbMS+iCB3P19
+         HzIo/gfRcBagZb9Mx6ydBFC0LMV62cty4rK78y/htUKuxnDvz5nvzJiO6l4W8LM5yU3B
+         hVFA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@zendesk.com header.s=zendesk1 header.b=Zhghb+xs;
+       spf=pass (google.com: domain of support@betfairdevelopersupport.zendesk.com designates 192.161.146.101 as permitted sender) smtp.mailfrom=support@betfairdevelopersupport.zendesk.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zendesk.com
+Return-Path: <support@betfairdevelopersupport.zendesk.com>
+Received: from out2.pod8.sac1.zdsys.com (out2.pod8.sac1.zdsys.com. [192.161.146.101])
+        by mx.google.com with ESMTPS id d128-v6si7792449pfc.211.2018.09.14.08.39.46
+        for <nick1985nick@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 14 Sep 2018 08:39:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of support@betfairdevelopersupport.zendesk.com designates 192.161.146.101 as permitted sender) client-ip=192.161.146.101;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@zendesk.com header.s=zendesk1 header.b=Zhghb+xs;
+       spf=pass (google.com: domain of support@betfairdevelopersupport.zendesk.com designates 192.161.146.101 as permitted sender) smtp.mailfrom=support@betfairdevelopersupport.zendesk.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zendesk.com
+Received: from out2.pod13.usw2.zdsys.com (out2.pod13.usw2.zdsys.com [10.210.52.153])
+	by out2.pod8.sac1.zdsys.com (Postfix) with ESMTP id D08C02CA144
+	for <nick1985nick@gmail.com>; Fri, 14 Sep 2018 15:39:45 +0000 (UTC)
+Received: from zendesk.com (unknown [10.210.113.249])
+	by out2.pod13.usw2.zdsys.com (Postfix) with ESMTP id 6C41C180008F
+	for <nick1985nick@gmail.com>; Fri, 14 Sep 2018 15:39:45 +0000 (UTC)
+Date: Fri, 14 Sep 2018 15:39:45 +0000
+From: "Neil T (Betfair Developer Support)" <support@betfairdevelopersupport.zendesk.com>
+Reply-To: Betfair Developer Support <support+id2586@betfairdevelopersupport.zendesk.com>
+To: Nick1985nick <nick1985nick@gmail.com>
+Message-ID: <R5RKR52G0R_5b9bd6411bc01_28f3fb5700cb9842289cd_sprut@zendesk.com>
+In-Reply-To: <R5RKR52G0R@zendesk.com>
+ <R5RKR52G0R_5b9bb9201f134_b5fc3fe4e80cb9781610dc_sprut@zendesk.com>
+Subject: [Betfair Developer Support] Re: Historical data for scientific
+ research
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5b9bd641672a5_28f3fb5700cb984229061";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Delivery-Context: event-id-438220399292
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: All
+X-Mailer: Zendesk Mailer
+X-Zendesk-From-Account-Id: 92dfad5
+X-Zendesk-Message-Id: <R5RKR52G0R_5b9bd6411bc01_28f3fb5700cb9842289cd_sprut@zendesk.com>
+DKIM-Signature:  v=1; a=rsa-sha256; c=relaxed/relaxed; d=zendesk.com;
+ q=dns/txt; s=zendesk1; t=1536939585;
+ bh=TYGvh1hTBYnydAfooYRbwLh5ys72IytL0mW+UEeUDjA=;
+ h=date:from:reply-to:to:message-id:in-reply-to:subject:mime-version:content-type:content-transfer-encoding;
+ b=Zhghb+xsHbUTnGSmI45HI1OkdSBIqH3tQm5uKPnyPtuxfYPxFaMIfxVZNRgz8slzubyigXLbQ7zh9Efz8MmqxKgE3At+a5YNGBLY2lvKbZRnwCR+7Z01z6Jxno8EU0lJh17klR8welZSkEBYk51o3Azt3OZPW/+cFfhiAqr1+cM=
+
+
+----==_mimepart_5b9bd641672a5_28f3fb5700cb984229061
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+##- Please type your reply above this line -##
+
+Your request (2586) has been solved. To reopen the request please reply t=
+o this email.
+----------------------------------------------
+
+Neil T, Sep 14, 16:39 BST
+
+Hi Nikolai
+
+Thanks for contacting us and letting us know about your work.
+
+You are fine to publish the historical data mentioned; it would also be g=
+reat if you could share the paper with us once you are happy to do so.
+
+Kind Regards,
+
+Neil
+
+Betfair Developer Program
+
+To receive notifications regarding API updates and releases please sign u=
+p to https://forum.developer.betfair.com/ and subscribe to "New API - Rel=
+ease Announcements"
+
+Paddy Power Betfair plc | Winslow Road | Hammersmith Embankment | London =
+|
+W6 9HP.
+
+Registered in Ireland under company number 16956
+
+Please consider the environment before printing this e-mail.
+
+This email (which includes any attachment and any subsequent reply) is se=
+nt for
+and on behalf of one or more operating entities in the Paddy Power Betfai=
+r plc
+group of companies. The information in this email is confidential and may=
+
+contain legal advice that is subject to legal privilege. As such it is in=
+tended
+only for the named recipient(s). This email may not be disclosed or used =
+by any
+person other than the addressee, nor may it be copied in any way. If you =
+have
+received this email in error, please notify the sender immediately and de=
+lete
+any copies of this email. Any unauthorized copying, disclosure or distrib=
+ution
+of the material in this email is strictly forbidden. Paddy Power=C2=AE, P=
+ADDY POWER
+LOGO, Betfair=C2=AE and BETFAIR LOGO are registered trademarks of Paddy P=
+ower
+Betfair plc and its subsidiaries.
+
+----------------------------------------------
+
+Nick1985nick, Sep 14, 14:35 BST
+
+Hello,
+
+My name is Nikolai Osipov and I am a research fellow in Steklov Mathemati=
+cal institute in St.Petersburg (Russia). In 2013-2014, I have collected h=
+istorical data of 24 soccer events using Betfair API. I have utilized the=
+se data for scientific research on prediction markets and on their applic=
+ation in medicine and epidemiology. Now I am planning to publish results =
+of the study in some prestigious scientific journal. But I also need to p=
+ublish some of the historical data mentioned above: research results must=
+ be supported by data in order to be accepted in any scientific journal. =
+Do I need a special permission for this?
+
+Sincerely yours,
+Nikolai Osipov
+
+
+
+--------------------------------
+This email is a service from Betfair Developer Support.
+
+
+
+
+
+
+
+
+
+[R5RKR5-2G0R]=
+
+----==_mimepart_5b9bd641672a5_28f3fb5700cb984229061
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+  <style type=3D"text/css">
+    table td {
+      border-collapse: collapse;
+    }
+    body[dir=3Drtl] .directional_text_wrapper { direction: rtl; unicode-b=
+idi: embed; }
+
+  </style>
+</head>
+<body  style=3D"width: 100%!important; margin: 0; padding: 0;">
+  <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Lucida G=
+rande',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+    <div style=3D"color: #b5b5b5;">##- Please type your reply above this =
+line -##</div>
+    <p>Your request (2586) has been solved. To reopen the request please =
+reply to this email.<br /></p><div style=3D"margin-top: 25px" data-versio=
+n=3D"2"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0">  <tr>    <td width=3D"100%" style=3D"padding: 15px 0; border-top: 1p=
+x dotted #c5c5c5;">      <table width=3D"100%" cellpadding=3D"0" cellspac=
+ing=3D"0" border=3D"0" style=3D"table-layout:fixed;">        <tr>        =
+            <td width=3D"100%" style=3D"padding: 0; margin: 0;" valign=3D=
+"top">            <p style=3D"font-family: 'Lucida Grande','Lucida Sans U=
+nicode','Lucida Sans',Verdana,Tahoma,sans-serif; font-size: 15px; line-he=
+ight: 18px; margin-bottom: 0; margin-top: 0; padding: 0; color:#1b1d1e;">=
+                                                                    <stro=
+ng>Neil T</strong> (Betfair Developer Support)                           =
+                                 </p>            <p style=3D"font-family:=
+ 'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sans-=
+serif; font-size: 13px; line-height: 25px; margin-bottom: 15px; margin-to=
+p: 0; padding: 0; color:#bbbbbb;">              Sep 14, 16:39 BST        =
+    </p>                                    <div class=3D"zd-comment" sty=
+le=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande'=
+, 'Tahoma', Verdana, sans-serif; font-size: 14px; line-height: 22px; marg=
+in: 15px 0">Hi Nikolai <br /><br />Thanks for contacting us and letting u=
+s know about your work.<br /><br />You are fine to publish the historical=
+ data mentioned; it would also be great if you could share the paper with=
+ us once you are happy to do so.<br /><div class=3D"signature"><p dir=3D"=
+auto" style=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucid=
+a Grande', 'Tahoma', Verdana, sans-serif; font-size: 14px; line-height: 2=
+2px; margin: 15px 0">Kind Regards,</p><p dir=3D"auto" style=3D"color: #2b=
+2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verd=
+ana, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0">Neil=
+</p><p dir=3D"auto" style=3D"color: #2b2e2f; font-family: 'Lucida Sans Un=
+icode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; font-size: 14px; =
+line-height: 22px; margin: 15px 0">Betfair Developer Program</p><p dir=3D=
+"auto" style=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Luci=
+da Grande', 'Tahoma', Verdana, sans-serif; font-size: 14px; line-height: =
+22px; margin: 15px 0">To receive notifications regarding API updates and =
+releases please sign up to <a href=3D"https://forum.developer.betfair.com=
+/" rel=3D"noreferrer">https://forum.developer.betfair.com/</a> and subscr=
+ibe to "New API - Release Announcements"</p><p dir=3D"auto" style=3D"colo=
+r: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma'=
+, Verdana, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0=
+">Paddy Power Betfair plc | Winslow Road | Hammersmith Embankment | Londo=
+n |<br />W6 9HP.</p><p dir=3D"auto" style=3D"color: #2b2e2f; font-family:=
+ 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; f=
+ont-size: 14px; line-height: 22px; margin: 15px 0">Registered in Ireland =
+under company number 16956</p><p dir=3D"auto" style=3D"color: #2b2e2f; fo=
+nt-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, san=
+s-serif; font-size: 14px; line-height: 22px; margin: 15px 0">Please consi=
+der the environment before printing this e-mail.</p><p dir=3D"auto" style=
+=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', =
+'Tahoma', Verdana, sans-serif; font-size: 14px; line-height: 22px; margin=
+: 15px 0">This email (which includes any attachment and any subsequent re=
+ply) is sent for<br />and on behalf of one or more operating entities in =
+the Paddy Power Betfair plc<br />group of companies. The information in t=
+his email is confidential and may<br />contain legal advice that is subje=
+ct to legal privilege. As such it is intended<br />only for the named rec=
+ipient(s). This email may not be disclosed or used by any<br />person oth=
+er than the addressee, nor may it be copied in any way. If you have<br />=
+received this email in error, please notify the sender immediately and de=
+lete<br />any copies of this email. Any unauthorized copying, disclosure =
+or distribution<br />of the material in this email is strictly forbidden.=
+ Paddy Power=C2=AE, PADDY POWER<br />LOGO, Betfair=C2=AE and BETFAIR LOGO=
+ are registered trademarks of Paddy Power<br />Betfair plc and its subsid=
+iaries.</p></div></div><p>                                  </p></td>    =
+    </tr>      </table>    </td>  </tr></table><p></p><table width=3D"100=
+%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">  <tr>    <td width=3D=
+"100%" style=3D"padding: 15px 0; border-top: 1px dotted #c5c5c5;">      <=
+table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" sty=
+le=3D"table-layout:fixed;">        <tr>                    <td width=3D"1=
+00%" style=3D"padding: 0; margin: 0;" valign=3D"top">            <p style=
+=3D"font-family: 'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Verd=
+ana,Tahoma,sans-serif; font-size: 15px; line-height: 18px; margin-bottom:=
+ 0; margin-top: 0; padding: 0; color:#1b1d1e;">                          =
+    <strong>Nick1985nick</strong>                          </p>          =
+  <p style=3D"font-family: 'Lucida Grande','Lucida Sans Unicode','Lucida =
+Sans',Verdana,Tahoma,sans-serif; font-size: 13px; line-height: 25px; marg=
+in-bottom: 15px; margin-top: 0; padding: 0; color:#bbbbbb;">             =
+ Sep 14, 14:35 BST            </p>                                    <di=
+v class=3D"zd-comment" style=3D"color: #2b2e2f; font-family: 'Lucida Sans=
+ Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; font-size: 14p=
+x; line-height: 22px; margin: 15px 0"><p dir=3D"auto" style=3D"color: #2b=
+2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verd=
+ana, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0">Hell=
+o,</p><p dir=3D"auto" style=3D"color: #2b2e2f; font-family: 'Lucida Sans =
+Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; font-size: 14px=
+; line-height: 22px; margin: 15px 0">My name is Nikolai Osipov and I am a=
+ research fellow in Steklov Mathematical institute in St.Petersburg (Russ=
+ia). In 2013-2014, I have collected historical data of 24 soccer events u=
+sing Betfair API. I have utilized these data for scientific research on p=
+rediction markets and on their application in medicine and epidemiology. =
+Now I am planning to publish results of the study in some prestigious sci=
+entific journal. But I also need to publish some of the historical data m=
+entioned above: research results must be supported by data in order to be=
+ accepted in any scientific journal. Do I need a special permission for t=
+his?</p><p dir=3D"auto" style=3D"color: #2b2e2f; font-family: 'Lucida San=
+s Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; font-size: 14=
+px; line-height: 22px; margin: 15px 0">Sincerely yours,<br />Nikolai Osip=
+ov</p></div>                                  </td>        </tr>      </t=
+able>    </td>  </tr></table></div>
+  </div>
+  =
+
+  =
+
+  =
+
+  <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Lucida G=
+rande',Verdana,Arial,sans-serif; font-size: 12px; color: #aaaaaa;
+    margin: 10px 0 14px 0; padding-top: 10px; border-top: 1px solid #eeee=
+ee;">
+    This email is a service from Betfair Developer Support. Delivered by =
+<a href=3D"https://www.zendesk.com/product/tour/?utm_campaign=3Dtext&amp;=
+utm_content=3DBetfair+Developer+Support&amp;utm_medium=3Dpoweredbyzendesk=
+&amp;utm_source=3Demail-notification" style=3D"color: black;" target=3D"_=
+blank">Zendesk</a>
+  </div>
+<span style=3D'color:#FFFFFF'>[R5RKR5-2G0R]</span></body>
+</html>
+<div itemscope itemtype=3D"http://schema.org/EmailMessage" style=3D"displ=
+ay:none">  <div itemprop=3D"action" itemscope itemtype=3D"http://schema.o=
+rg/ViewAction">    <link itemprop=3D"url" href=3D"https://betfairdevelope=
+rsupport.zendesk.com/hc/requests/2586" />    <meta itemprop=3D"name" cont=
+ent=3D"View ticket"/>  </div></div>=
+
+----==_mimepart_5b9bd641672a5_28f3fb5700cb984229061--

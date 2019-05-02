@@ -1,0 +1,97 @@
+e_id,e_name,market_id,market_name,market_index
+1,\Soccer\Spanish Soccer\Primera Division\Fixtures 05 April    \Granada v Betis,108756355,Correct Score,3
+1,\Soccer\Spanish Soccer\Primera Division\Fixtures 05 April    \Granada v Betis,108756360,Match Odds,1
+1,\Soccer\Spanish Soccer\Primera Division\Fixtures 05 April    \Granada v Betis,108756340,Over/Under 1.5 Goals,4
+1,\Soccer\Spanish Soccer\Primera Division\Fixtures 05 April    \Granada v Betis,108756356,Over/Under 2.5 Goals,2
+2,\Soccer\Danish Soccer\Danish Superliga\Fixtures 09 April    \SonderjyskE v Esbjerg,108820020,Correct Score,3
+2,\Soccer\Danish Soccer\Danish Superliga\Fixtures 09 April    \SonderjyskE v Esbjerg,108820023,Match Odds,1
+2,\Soccer\Danish Soccer\Danish Superliga\Fixtures 09 April    \SonderjyskE v Esbjerg,108820007,Over/Under 1.5 Goals,4
+2,\Soccer\Danish Soccer\Danish Superliga\Fixtures 09 April    \SonderjyskE v Esbjerg,108820021,Over/Under 2.5 Goals,2
+3,\Soccer\English Soccer\Npower Championship\Fixtures 13 April    \Leeds v Sheff Wed,108853111,Correct Score,3
+3,\Soccer\English Soccer\Npower Championship\Fixtures 13 April    \Leeds v Sheff Wed,108853115,Match Odds,1
+3,\Soccer\English Soccer\Npower Championship\Fixtures 13 April    \Leeds v Sheff Wed,108853098,Over/Under 1.5 Goals,4
+3,\Soccer\English Soccer\Npower Championship\Fixtures 13 April    \Leeds v Sheff Wed,108853112,Over/Under 2.5 Goals,2
+4,\Soccer\UEFA Champions League\Fixtures 24 April\Dortmund v Real Madrid,108997242,Correct Score,3
+4,\Soccer\UEFA Champions League\Fixtures 24 April\Dortmund v Real Madrid,108997229,Match Odds,1
+4,\Soccer\UEFA Champions League\Fixtures 24 April\Dortmund v Real Madrid,108997230,Over/Under 1.5 Goals,4
+4,\Soccer\UEFA Champions League\Fixtures 24 April\Dortmund v Real Madrid,108997231,Over/Under 2.5 Goals,2
+5,\Soccer\Spanish Soccer\Primera Division\Fixtures 08 May\Real Madrid v Malaga,109263465,Correct Score,3
+5,\Soccer\Spanish Soccer\Primera Division\Fixtures 08 May\Real Madrid v Malaga,109263470,Match Odds,1
+5,\Soccer\Spanish Soccer\Primera Division\Fixtures 08 May\Real Madrid v Malaga,109263450,Over/Under 1.5 Goals,4
+5,\Soccer\Spanish Soccer\Primera Division\Fixtures 08 May\Real Madrid v Malaga,109263466,Over/Under 2.5 Goals,2
+6,\Soccer\Portuguese Soccer\Primeira Liga\Fixtures 11 May      \Porto v Benfica,109352704,Correct Score,3
+6,\Soccer\Portuguese Soccer\Primeira Liga\Fixtures 11 May      \Porto v Benfica,109352708,Match Odds,1
+6,\Soccer\Portuguese Soccer\Primeira Liga\Fixtures 11 May      \Porto v Benfica,109352691,Over/Under 1.5 Goals,4
+6,\Soccer\Portuguese Soccer\Primeira Liga\Fixtures 11 May      \Porto v Benfica,109352705,Over/Under 2.5 Goals,2
+7,\Soccer\UEFA Champions League\Fixtures 25 May\Dortmund v B Munich,109284095,Correct Score,3
+7,\Soccer\UEFA Champions League\Fixtures 25 May\Dortmund v B Munich,109284082,Match Odds,1
+7,\Soccer\UEFA Champions League\Fixtures 25 May\Dortmund v B Munich,109284083,Over/Under 1.5 Goals,4
+7,\Soccer\UEFA Champions League\Fixtures 25 May\Dortmund v B Munich,109284084,Over/Under 2.5 Goals,2
+8,\Soccer\Confederations Cup\Fixtures 15 June\Brazil v Japan,109597418,Correct Score,3
+8,\Soccer\Confederations Cup\Fixtures 15 June\Brazil v Japan,109597405,Match Odds,1
+8,\Soccer\Confederations Cup\Fixtures 15 June\Brazil v Japan,109597406,Over/Under 1.5 Goals,4
+8,\Soccer\Confederations Cup\Fixtures 15 June\Brazil v Japan,109597407,Over/Under 2.5 Goals,2
+9,\Soccer\U21 Euro Championship\Fixtures 18 June\Italy U21 v Spain U21,109798396,Correct Score,3
+9,\Soccer\U21 Euro Championship\Fixtures 18 June\Italy U21 v Spain U21,109798383,Match Odds,1
+9,\Soccer\U21 Euro Championship\Fixtures 18 June\Italy U21 v Spain U21,109798384,Over/Under 1.5 Goals,4
+9,\Soccer\U21 Euro Championship\Fixtures 18 June\Italy U21 v Spain U21,109798385,Over/Under 2.5 Goals,2
+10,\Soccer\Confederations Cup\Fixtures 19 June\Italy v Japan,109598136,Correct Score,3
+10,\Soccer\Confederations Cup\Fixtures 19 June\Italy v Japan,109598123,Match Odds,1
+10,\Soccer\Confederations Cup\Fixtures 19 June\Italy v Japan,109598124,Over/Under 1.5 Goals,4
+10,\Soccer\Confederations Cup\Fixtures 19 June\Italy v Japan,109598125,Over/Under 2.5 Goals,2
+11,\Soccer\U20 World Cup Finals\Fixtures 24 June     \Spain U20 v Ghana U20,109784283,Correct Score,3
+11,\Soccer\U20 World Cup Finals\Fixtures 24 June     \Spain U20 v Ghana U20,109784286,Match Odds,1
+11,\Soccer\U20 World Cup Finals\Fixtures 24 June     \Spain U20 v Ghana U20,109784270,Over/Under 1.5 Goals,4
+11,\Soccer\U20 World Cup Finals\Fixtures 24 June     \Spain U20 v Ghana U20,109784284,Over/Under 2.5 Goals,2
+12,\Soccer\UEFA Champions League\Fixtures 23 July     \Hafnarfjordur v Ekranas,110105733,Over/Under 2.5 Goals,2
+12,\Soccer\UEFA Champions League\Fixtures 23 July     \Hafnarfjordur v Ekranas,110105719,Over/Under 1.5 Goals,4
+12,\Soccer\UEFA Champions League\Fixtures 23 July     \Hafnarfjordur v Ekranas,110105736,Match Odds,1
+12,\Soccer\UEFA Champions League\Fixtures 23 July     \Hafnarfjordur v Ekranas,110105732,Correct Score,3
+13,\Soccer\French Soccer\Ligue 1 Orange\Fixtures 08 March    \Guingamp v Evian TG,113029614,Correct Score,3
+13,\Soccer\French Soccer\Ligue 1 Orange\Fixtures 08 March    \Guingamp v Evian TG,113029618,Match Odds,1
+13,\Soccer\French Soccer\Ligue 1 Orange\Fixtures 08 March    \Guingamp v Evian TG,113029601,Over/Under 1.5 Goals,4
+13,\Soccer\French Soccer\Ligue 1 Orange\Fixtures 08 March    \Guingamp v Evian TG,113029615,Over/Under 2.5 Goals,2
+14,\Soccer\Brazilian Soccer\Brazilian Carioca\Fixtures 09 March    \Botafogo RJ v Flamengo,113146560,Correct Score,3
+14,\Soccer\Brazilian Soccer\Brazilian Carioca\Fixtures 09 March    \Botafogo RJ v Flamengo,113059696,Match Odds,1
+14,\Soccer\Brazilian Soccer\Brazilian Carioca\Fixtures 09 March    \Botafogo RJ v Flamengo,113146507,Over/Under 1.5 Goals,4
+14,\Soccer\Brazilian Soccer\Brazilian Carioca\Fixtures 09 March    \Botafogo RJ v Flamengo,113059697,Over/Under 2.5 Goals,2
+15,\Soccer\Spanish Soccer\Primera Division\Fixtures 10 March    \Osasuna v Malaga,113058142,Correct Score,3
+15,\Soccer\Spanish Soccer\Primera Division\Fixtures 10 March    \Osasuna v Malaga,113058146,Match Odds,1
+15,\Soccer\Spanish Soccer\Primera Division\Fixtures 10 March    \Osasuna v Malaga,113058129,Over/Under 1.5 Goals,4
+15,\Soccer\Spanish Soccer\Primera Division\Fixtures 10 March    \Osasuna v Malaga,113058143,Over/Under 2.5 Goals,2
+16,\Soccer\English Soccer\Championship\Fixtures 11 March    \Derby v Bolton,113095654,Correct Score,3
+16,\Soccer\English Soccer\Championship\Fixtures 11 March    \Derby v Bolton,113095658,Match Odds,1
+16,\Soccer\English Soccer\Championship\Fixtures 11 March    \Derby v Bolton,113095641,Over/Under 1.5 Goals,4
+16,\Soccer\English Soccer\Championship\Fixtures 11 March    \Derby v Bolton,113095655,Over/Under 2.5 Goals,2
+17,\Soccer\English Soccer\League One\Play-Offs\Fixtures 25 May\Leyton Orient v Rotherham,114140627,Correct Score,3
+17,\Soccer\English Soccer\League One\Play-Offs\Fixtures 25 May\Leyton Orient v Rotherham,114140614,Match Odds,1
+17,\Soccer\English Soccer\League One\Play-Offs\Fixtures 25 May\Leyton Orient v Rotherham,114140615,Over/Under 1.5 Goals,4
+17,\Soccer\English Soccer\League One\Play-Offs\Fixtures 25 May\Leyton Orient v Rotherham,114140616,Over/Under 2.5 Goals,2
+18,\Soccer\Internationals\Fixtures 30 May\England v Peru,114202952,Correct Score,3
+18,\Soccer\Internationals\Fixtures 30 May\England v Peru,114202957,Match Odds,1
+18,\Soccer\Internationals\Fixtures 30 May\England v Peru,114202937,Over/Under 1.5 Goals,4
+18,\Soccer\Internationals\Fixtures 30 May\England v Peru,114202953,Over/Under 2.5 Goals,2
+19,\Soccer\Internationals\Fixtures 03 June\Switzerland v Peru,114248237,Correct Score,3
+19,\Soccer\Internationals\Fixtures 03 June\Switzerland v Peru,114248241,Match Odds,1
+19,\Soccer\Internationals\Fixtures 03 June\Switzerland v Peru,114248224,Over/Under 1.5 Goals,4
+19,\Soccer\Internationals\Fixtures 03 June\Switzerland v Peru,114248238,Over/Under 2.5 Goals,2
+20,\Soccer\2014 FIFA World Cup\Fixtures 21 June\Germany v Ghana,113439485,Correct Score,3
+20,\Soccer\2014 FIFA World Cup\Fixtures 21 June\Germany v Ghana,112173851,Match Odds,1
+20,\Soccer\2014 FIFA World Cup\Fixtures 21 June\Germany v Ghana,113439473,Over/Under 1.5 Goals,4
+20,\Soccer\2014 FIFA World Cup\Fixtures 21 June\Germany v Ghana,112173852,Over/Under 2.5 Goals,2
+21,\Soccer\North American Soccer\MLS\Fixtures 17 July     \Toronto FC v Vancouver Whitecaps,114540973,Correct Score,3
+21,\Soccer\North American Soccer\MLS\Fixtures 17 July     \Toronto FC v Vancouver Whitecaps,114540977,Match Odds,1
+21,\Soccer\North American Soccer\MLS\Fixtures 17 July     \Toronto FC v Vancouver Whitecaps,114540960,Over/Under 1.5 Goals,4
+21,\Soccer\North American Soccer\MLS\Fixtures 17 July     \Toronto FC v Vancouver Whitecaps,114540974,Over/Under 2.5 Goals,2
+22,\Soccer\UEFA Europa League\Fixtures 24 July     \Haugesund v Sarajevo,114621035,Correct Score,3
+22,\Soccer\UEFA Europa League\Fixtures 24 July     \Haugesund v Sarajevo,114621039,Match Odds,1
+22,\Soccer\UEFA Europa League\Fixtures 24 July     \Haugesund v Sarajevo,114621022,Over/Under 1.5 Goals,4
+22,\Soccer\UEFA Europa League\Fixtures 24 July     \Haugesund v Sarajevo,114621036,Over/Under 2.5 Goals,2
+23,\Soccer\English Soccer\Barclays Premier League\Fixtures 25 August   \Man City v Liverpool,115036530,Correct Score,3
+23,\Soccer\English Soccer\Barclays Premier League\Fixtures 25 August   \Man City v Liverpool,115036535,Match Odds,1
+23,\Soccer\English Soccer\Barclays Premier League\Fixtures 25 August   \Man City v Liverpool,115036515,Over/Under 1.5 Goals,4
+23,\Soccer\English Soccer\Barclays Premier League\Fixtures 25 August   \Man City v Liverpool,115036531,Over/Under 2.5 Goals,2
+24,\Soccer\English Soccer\Barclays Premier League\Fixtures 13 September\Chelsea v Swansea,115259859,Correct Score,3
+24,\Soccer\English Soccer\Barclays Premier League\Fixtures 13 September\Chelsea v Swansea,115259864,Match Odds,1
+24,\Soccer\English Soccer\Barclays Premier League\Fixtures 13 September\Chelsea v Swansea,115259844,Over/Under 1.5 Goals,4
+24,\Soccer\English Soccer\Barclays Premier League\Fixtures 13 September\Chelsea v Swansea,115259860,Over/Under 2.5 Goals,2
