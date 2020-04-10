@@ -33,8 +33,8 @@ VModelForCoeff <- function(
 		ThtPls, 
 		ThtMns, 
 		pp,        # Sequence of beliefs.
-		rhoPls,    # Model probability of matching of an unmatched vote for $\theta = 1$. 
-		rhoMns)    # Model probability of matching of an unmatched vote against $\theta = 1$ (for $\theta = 0$).
+		rhoPls,    # Model probability of matching of an unmatched vote for $\omega = 1$. 
+		rhoMns)    # Model probability of matching of an unmatched vote against $\omega = 1$ (for $\omega = 0$).
 {
 	VPls <- 0;
 	VMns <- 0;
