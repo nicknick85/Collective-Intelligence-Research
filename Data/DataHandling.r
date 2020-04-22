@@ -71,3 +71,20 @@ ToVotes <- function(
 		VPls = selData$back,
 		VMns = (selData$k - 1) * selData$lay);
 }
+
+############################################################################
+
+VtoS <- function(votes)
+{
+	data.frame(
+		q = votes$q,
+		SPls = votes$VPls / votes$q,
+		SMns = votes$VMns / (1 - votes$q));
+}
+
+
+AggData <- function(dat, outcome, time)
+{
+	S <- VtoS(ToVotes(SumData(dat[dat$selection_index == outcome & dat$ts <= min(dat$ts) + time, ])));
+	S[order(S$q), ];
+}
