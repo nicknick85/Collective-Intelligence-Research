@@ -102,6 +102,7 @@ VModel <- function(votes, mu, sgm, lmd, rhoPlss, rhoMnss)
 	mdlVotes;
 }
 
+#####################################################################
 
 lgs <- function(x, d, k) 
 {
@@ -120,11 +121,3 @@ rhoCurve <- function(q, d, k)
 	lgs(logit(q), d, k);
 }
 
-
-VtoS <- function(votes)
-{
-	data.frame(
-		q = votes$q,
-		SPls = votes$VPls / votes$q,
-		SMns = votes$VMns / (1 - votes$q));
-}

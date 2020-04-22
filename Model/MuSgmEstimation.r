@@ -5,13 +5,13 @@
 
 Tht <- function(q, lmd)
 {
-	(1 - exp(lmd * q)) / (exp(-lmd * (1 - q)) - exp(lmd * q));
+	(exp(-lmd * q) - 1) / (exp(-lmd) - 1);   
 }
 
 
 ThtCnj <- function(q, lmd)
 {
-	1 - Tht(1 - q, lmd);	#### (exp(-lmd * q) - 1) / (exp(-lmd * q) - exp(lmd * (1 - q)));
+	(exp(lmd * q) - 1) / (exp(lmd) - 1);    ### 1 - Tht(1 - q, lmd);	
 }
 
 
