@@ -52,7 +52,21 @@ VModelForCoeff <- function(
 			VMns <- VMns + 1;
 			next;
 		}
-
+		
+		if ((1 - q) * VPls ==  q * VMns)
+		{
+			if (rhoPls * UFor1(p, q, lmd) + (1 - rhoPls) >= rhoMns * UFor0(p, q, lmd) + (1 - rhoMns))
+			{
+				VPls <- VPls + 1;
+			}
+			else
+			{
+				VMns <- VMns + 1;
+			}
+			
+			next;
+		}
+		
 		if ((1 - q) * VPls >=  q * VMns)
 		{
 			if (rhoPls * UFor1(p, q, lmd) + (1 - rhoPls) >= UFor0(p, q, lmd))
