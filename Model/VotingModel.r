@@ -95,7 +95,7 @@ VModelForCoeff <- function(
 }
 
 
-ShowDynamics <- function(q, mu, sgm, rhoPls, rhoMns, nVotes)
+ShowDynamicsForq <- function(q, mu, sgm, rhoPls, rhoMns, nVotes)
 {
 	lmd <- SolveEqEq(mu, sgm)$par;
 	ThtPls <- Tht(q, lmd);
