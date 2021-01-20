@@ -18,9 +18,9 @@ GetCurrPrices <- function(
 }
 
 
-GetGraphOperTime <- function(dat, s_ind, voldlt, iStart = 1, withlog = TRUE) 
+GetGraphOperTime <- function(dat, outcome, voldlt, iStart = 1, withlog = TRUE) 
 {
-	dat <- dat[dat$selection_index == s_ind, ]
+	dat <- dat[dat$selection_index == outcome, ]
 	tStart <- dat$ts[iStart]
 	datEx <- dat[dat$ts < tStart, ]
 	dat <- dat[dat$ts >= tStart, ]
