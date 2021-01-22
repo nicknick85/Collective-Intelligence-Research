@@ -7,7 +7,7 @@ library(ggplot2)
 library(grid)
 
 
-Plot <- function(gr, scale = 1000)
+PlotMuSgm <- function(gr, scale = 1000)
 {
 	yMin <- min(gr$qMns) - 0.005;
 	yMax <- max(gr$qPls) + 0.005;
