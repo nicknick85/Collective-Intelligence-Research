@@ -1,4 +1,4 @@
-# Prediction systems research
+# Collective intelligence research
 The repository contains data and scripts for studies described in the article ...
 * File _PSys.RData_ is an _R_ workspace that contains some data preloaded from [our database](https://github.com/nicknick85/Prediction-Systems-Research/tree/master/Data) into tables _data12_ and _data13_. This workspace also contains all our scripts from the files described below.
 ## Data
