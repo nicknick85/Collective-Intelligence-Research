@@ -11,4 +11,4 @@ We implement and verify our ideas in _R_.
 * File _Model/MuSgmEstimation.r_ contains scripts for eliciting estimates of __&mu;__ and &sigma; from market states.
 * File _Model/GetGraph.r_ contains scripts for obtaining graphs of __&mu;__ and &sigma; estimates where "time" is aggregated _V_<sup> +</sup> and&nbsp;_V_<sup> -</sup>.
 * File _Model/VotingModel.r_ contains scripts for simulation of our model.
-* File _Model/ModelExample.r_ contains scripts for reproducing Table 3 from the article. This file should be loaded from _PSys.RData_ workspace.
+* File _Model/ModelExample.r_ contains scripts for reproducing Table 3 from the article. This file should be loaded from _CI.RData_ workspace.
