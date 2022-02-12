@@ -1,4 +1,4 @@
-### An example of the voting model. It should be loaded from "PSys.RData" workspace.
+### An example of the voting model. It should be loaded from "CI.RData" workspace.
 #####################################################################################
 
 
