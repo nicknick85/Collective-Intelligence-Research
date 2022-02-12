@@ -3,8 +3,7 @@
 ######################################################################################################
 
 
-library(ggplot2)
-library(grid)
+# The libraries ggplot2 and grid are needed.
 
 
 PlotMuSgm <- function(gr, scale = 1000)
