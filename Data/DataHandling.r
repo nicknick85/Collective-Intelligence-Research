@@ -3,7 +3,7 @@
 #######################################################################################
 
 
-library(RPostgreSQL);
+# The library RPostgreSQL is needed.
 
 
 ### "GetData" extracts the data from the database.
