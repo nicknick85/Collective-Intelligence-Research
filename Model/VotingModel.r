@@ -30,8 +30,6 @@ UFor0 <- function(p, q, lmd)
 VModelForCoeff <- function(
 		q,         # Voting coefficient.
 		lmd,
-		ThtPls, 
-		ThtMns, 
 		pp,        # Sequence of beliefs.
 		rhoPls,    # Model probability of matching of an unmatched vote for $\omega = 1$. 
 		rhoMns,    # Model probability of matching of an unmatched vote against $\omega = 1$ (for $\omega = 0$).
@@ -44,17 +42,7 @@ VModelForCoeff <- function(
 
 	for (p in pp)
 	{
-		if (p >= ThtMns)
-		{
-			VPls <- VPls + 1;
-		}
-
-		else if (p <= ThtPls)
-		{
-			VMns <- VMns + 1;
-		}
-		
-		else if ((1 - q) * VPls ==  q * VMns)
+		if ((1 - q) * VPls ==  q * VMns)
 		{
 			if (rhoPls * UFor1(p, q, lmd) + (1 - rhoPls) >= rhoMns * UFor0(p, q, lmd) + (1 - rhoMns))
 			{
@@ -98,14 +86,12 @@ VModelForCoeff <- function(
 ShowDynamicsForq <- function(q, mu, sgm, rhoPls, rhoMns, nVotes)
 {
 	lmd <- SolveEqEq(mu, sgm)$par;
-	ThtPls <- Tht(q, lmd);
-	ThtMns <- ThtCnj(q, lmd);
 
 	cat("lmd =", lmd, "\n");
-	cat("thtPls =", ThtPls, "\n");
-	cat("thtMns =", ThtMns, "\n");
+	cat("thtPls =", Tht(q, lmd), "\n");
+	cat("thtMns =", ThtCnj(q, lmd), "\n");
 
-	invisible(VModelForCoeff(q, lmd, ThtPls, ThtMns, rnorm(nVotes, mu, sgm), rhoPls, rhoMns, TRUE));
+	invisible(VModelForCoeff(q, lmd, rnorm(nVotes, mu, sgm), rhoPls, rhoMns, TRUE));
 }
 
 
@@ -120,11 +106,9 @@ VModel <- function(votes, mu, sgm, lmd, rhoPlss, rhoMnss)
 	mdlVotes = data.frame();
 	for (q in votes$q)
 	{
-		ThtPls <- Tht(q, lmd);
-		ThtMns <- ThtCnj(q, lmd);
 		rhoPls <- rhoPlss[votes$q == q];
 		rhoMns <- rhoMnss[votes$q == q];
-		mdlVotes <- rbind(mdlVotes, cbind(q, VModelForCoeff(q, lmd, ThtPls, ThtMns, pp[qq == q], rhoPls, rhoMns)));
+		mdlVotes <- rbind(mdlVotes, cbind(q, VModelForCoeff(q, lmd, pp[qq == q], rhoPls, rhoMns)));
 	}
 
 	mdlVotes;
