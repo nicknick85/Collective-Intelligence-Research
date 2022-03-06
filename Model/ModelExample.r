@@ -1,7 +1,8 @@
 ### An example of the voting model. It should be loaded from "CI.RData" workspace.
 #####################################################################################
 
-
+ModelExample <- function()
+{
 
 ### Soccer; UEFA Champions League; 23 July 2013; Hafnarfjordur vs. Ekranas; the draw outcome
 #############################################################################################
@@ -40,3 +41,4 @@ set.seed(2019);
 modelRes12_3 <- VModel(votes12_3, mu, sgm, lmd, rhoPlss, rhoMnss);
 print(cbind(votes12_3, modelRes12_3));
 
+}
