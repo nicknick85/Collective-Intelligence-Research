@@ -76,7 +76,7 @@ VModelForCoeff <- function(
 			VPls <- VPls + 1;
 		}
 
-		if (log) print(c((1 - q) * VPls, q * VMns))
+		if (log) print(c(VPls / q, VMns / (1 - q)))
 	}
 
 	cbind(VPls, VMns);
