@@ -19,5 +19,11 @@ PlotMuSgm <- function(gr, scale = 1000)
 	g3 <- ggplotGrob(grSgm);
 	g <- rbind(g2, g3, size = "last");
 	g$heights[7] <- 2 * g$heights[7];
-	grid.draw(g)
+	grid.draw(g);
+}
+
+
+PlotSuppDemDiff <- function(sdHist)
+{
+	ggplot(data = sdHist) + geom_line(mapping = aes(x = 1:length(SPls), y = SPls - SMns), color = "blue");
 }
