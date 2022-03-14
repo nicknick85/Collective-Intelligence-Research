@@ -84,7 +84,7 @@ VModelForCoeff <- function(
 }
 
 
-GetSuppDemForq <- function(q, mu, sgm, rhoPls, rhoMns, nVotes, seed = NULL)
+GetDemSuppForq <- function(q, mu, sgm, rhoPls, rhoMns, nVotes, seed = NULL)
 {
 	set.seed(seed);
 
