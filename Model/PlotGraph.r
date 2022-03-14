@@ -23,7 +23,7 @@ PlotMuSgm <- function(gr, scale = 1000)
 }
 
 
-PlotSuppDemDiff <- function(sdHist)
+PlotDemSuppDiff <- function(sdHist)
 {
 	ggplot(data = sdHist) + geom_line(mapping = aes(x = 1:length(SPls), y = SPls - SMns), color = "blue");
 }
