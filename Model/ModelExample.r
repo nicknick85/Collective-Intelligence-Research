@@ -10,8 +10,8 @@ ModelExample <- function()
 data12_3 <- data12[data12$selection_index == 3,];
 
 
-### Consider the history of voting (trading) up to the first moment where the total number of votes (dollars) > 15000.
-#######################################################################################################################
+### Consider the history of voting (trading) up to the first moment when the total number of votes (dollars) > 15000.
+######################################################################################################################
 
 data12_3_15000 <- data12_3[data12_3$ts <= "2013-07-23 21:12:49 MSK",]; 
 
