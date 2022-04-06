@@ -1,10 +1,10 @@
 ## Scripts for uploading the PostgreSQL data into R and for further working with them. 
-## Author: N.N.Osipov
+## Authors: N.N.Osipov, A.V.Osipov
 #######################################################################################
 
 
-# The library RPostgreSQL is needed.
-
+# The library RPostgreSQL is needed (for reading from DB).
+# The library data.table is needed (for reading from CSV).
 
 ### "GetData" extracts the data from the database.
 ###################################################
@@ -34,6 +34,16 @@ GetData <- function(
 	data;	
 }
 
+GetDataFromCSV <- function(id, betstape, markets, selections) {
+  tab <- selections[markets, on = c(market_id="market_id", e_id="e_id")]
+  tab <- tab[(e_id == id) & (market_index == 1),
+             list(e_id, market_id, selection_id, selection_index)]
+  tab <- betstape[tab, 
+                  on = c(market_id="market_id", e_id="e_id", selection_id = "selection_id")]
+  tab <- tab[, list(selection_index, ts, k, back, lay, matched)]
+  setkeyv(tab, c("selection_index", "ts", "k"))
+  return(as.data.frame(tab))
+}
 
 ### "SumData" aggregates the data by time.
 ###########################################

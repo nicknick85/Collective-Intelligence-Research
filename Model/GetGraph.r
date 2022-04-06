@@ -104,3 +104,9 @@ GetGraphOperTime <- function(dat, outcome, voldlt, iStart = 1, withlog = TRUE)
 
 	gr
 }
+
+PlotMuSgmById <- function(evt_id, betstape, markets, selections) {
+  dat <- GetDataFromCSV(evt_id, betstape, markets, selections)
+  gr <- GetGraphOperTime(dat, 1, 1000)
+  PlotMuSgm(gr)
+}
