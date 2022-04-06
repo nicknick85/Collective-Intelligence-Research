@@ -5,6 +5,7 @@
 
 source("Data/DataHandling.r")
 source("Model/MuSgmEstimation.r")
+source("Model/PlotGraph.r")
 
 
 GetCurrPrices <- function(
