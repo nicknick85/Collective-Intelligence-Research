@@ -37,7 +37,7 @@ VModelForCoeff <- function(
 	VPls <- 0;
 	VMns <- 0;
 
-	sdHist <- data.frame();
+	sdHist <- data.frame(matrix(ncol = 2, nrow = 0));
 
 	for (p in pp)
 	{
