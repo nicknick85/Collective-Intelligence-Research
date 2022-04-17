@@ -47,7 +47,7 @@ EqEq <- function(lmd, mu, sgm)
 
 SolveEqEq <- function(mu, sgm)
 {
-	optim(-0.05, EqEq, mu = mu, sgm = sgm);
+	optim(-0.05, EqEq, mu = mu, sgm = sgm, control = list(warn.1d.NelderMead = FALSE));
 }
 
 
@@ -60,7 +60,7 @@ OuterEq <- function(lmd, votes)
 
 EstimateMuSgm <- function(votes, iniLmd = -0.1)
 {	
-	oeRes <- optim(iniLmd, OuterEq, votes = votes);		
+	oeRes <- optim(iniLmd, OuterEq, votes = votes, control = list(warn.1d.NelderMead = FALSE));		
 	llRes <- OptimLogL(votes, oeRes$par);
 	
 	data.frame(
