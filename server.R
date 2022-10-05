@@ -38,7 +38,7 @@ server <- function(input, output) {
     }
     dat <- GetDataFromCSV(evt_id, betstape, markets, selections)
     forecast <- GetForecast(timemoment_deb(), dat, selection, 1000, iStart = 1)
-    res <- data.frame(name = character(5), value = character(5))
+    res <- data.frame(name = character(5), value = character(5), stringsAsFactors = FALSE)
     res$name[1] <- "event name"
     res$value[1] <- event_name_deb()
     res$name[2] <- "outcome"
