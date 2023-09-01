@@ -13,4 +13,4 @@ We implement and verify our ideas in _R_.
 * _Model/VotingModel.r_ contains scripts for simulation of our model.
 * _Model/ModelExample.r_ contains scripts for reproducing Table 3 from the article. This file should be loaded from _CI.RData_ workspace.
 ## Demonstration application
-In order to see some of our analysis in real time, download all the files, open _CI.RData_ and use _source_ to read _app.R_.
+In order to see some of our analysis in real time via a shiny app, download all the files, open _CI.RData_ and use _source_ to read _app.R_.
