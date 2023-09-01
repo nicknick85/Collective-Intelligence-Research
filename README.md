@@ -12,3 +12,5 @@ We implement and verify our ideas in _R_.
 * _Model/GetGraph.r_ contains scripts for obtaining graphs of __&mu;__ and &sigma; estimates where "time" is aggregated _V_<sup>&nbsp;+</sup> and&nbsp;_V_<sup>&nbsp;-</sup>.
 * _Model/VotingModel.r_ contains scripts for simulation of our model.
 * _Model/ModelExample.r_ contains scripts for reproducing Table 3 from the article. This file should be loaded from _CI.RData_ workspace.
+## Demonstration application
+In order to see some of our analysis in real time, download all the files, open _CI.RData_ and use _source_ to read _app.R_.
