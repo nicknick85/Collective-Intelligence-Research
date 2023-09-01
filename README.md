@@ -1,5 +1,5 @@
 # Collective intelligence research
-The repository contains data and scripts for the study _Interpretable Collective Intelligence of Non-rational Human Agents_ by Alexey V. Osipov and Nikolay N. Osipov ([arXiv:2204.13424](https://doi.org/10.48550/arXiv.2204.13424) \[cs.GT\]).
+The repository contains data and scripts for the study _From Prediction Markets to Interpretable Collective Intelligence_ by Alexey V. Osipov and Nikolay N. Osipov ([arXiv:2204.13424](https://doi.org/10.48550/arXiv.2204.13424) \[cs.GT\]).
 * _CI.RData_ is an _R_ workspace that contains some data preloaded from [our database](https://github.com/nicknick85/Prediction-Systems-Research/tree/master/Data) into tables _data12_ and _data13_ (we use _R x64 4.1.2_ for _Windows_). This workspace also contains all our scripts from the files described below.
 ## Data
 In spite of the fact that our goal is the creation of a play-money prediction system for scientific research, we rely on [the detailed historical data](https://github.com/nicknick85/Prediction-Systems-Research/tree/master/Data) of the largest real-money prediction market. We believe that their great volume and level of detail are necessary for our studies.
